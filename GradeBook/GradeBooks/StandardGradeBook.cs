@@ -8,9 +8,9 @@ namespace GradeBook.GradeBooks
 {
     internal class StandardGradeBook:BaseGradeBook
     {
-        StandardGradeBook(string name):base(name)
+        public StandardGradeBook(string name):base(name)
         {
-            Type = Enums.GradeBookType.Standard;
+            this.Type = Enums.GradeBookType.Standard;
         }
     }
 }
